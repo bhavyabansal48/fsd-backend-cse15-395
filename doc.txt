@@ -1,0 +1,9 @@
+"code . "- open vs code editor 
+git hub  repo
+git bash - connect local machine project to cloud
+git init
+git add README.md
+git commit -m "first"
+git branch -M main   
+git remote add origin repo link
+git push -u origin main  
