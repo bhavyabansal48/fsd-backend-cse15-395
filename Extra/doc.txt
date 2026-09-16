@@ -1,0 +1,72 @@
+"code . "- open vs code editor 
+git hub  repo
+git bash - connect local machine project to cloud
+git init
+git add README.md
+git commit -m "first"
+git branch -M main   
+git remote add origin repo link
+git push -u origin main 
+
+
+points to remember in js 
+1.  if auto save not active then save each dot if apply
+
+node.js built in modules
+FS  
+Events 
+Http 
+OS 
+Path  
+
+19-august-2026
+CRUD function
+c->create
+R->READ
+U->Update
+D->Delete
+
+
+8-sep work :
+200 ok ->Request Successfull
+201 created ->Resource created
+400 bad request ->client sent wrong request
+404 not found ->data no found
+500 internal server mr->problem with server
+ 
+
+ Notes : 15-sep-2026
+Synchronas operations :
+Synchronas is a blocking architecture , so the execution of ech operatiuon is dependent on the completion of the one before it 
+function sum(){
+    console.log("2");
+}
+function example (){
+    console.log("1");
+    sum();
+    console.log("3");
+}
+example();
+
+
+Asynchronas is a non-blocking architecture , so the execution of one task isn,t dependent on another.
+Tasks can run simultaneously.
+function sum(){
+    setTimeout(()=>{
+        console.log("2");
+    },2000);
+}
+function example(){
+    console.log("1");
+    sum();
+    console.log("3");
+}
+example();
+
+Promise : it is an object that represent the work is done or not or in waiting process
+stages:
+1.pending-work is in waiting 
+2.fullfil-works execute 
+3.rejected-work rejected 
+.then==handle the result
+.catch==to handle the error
